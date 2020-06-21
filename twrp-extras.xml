@@ -13,5 +13,8 @@
 	
 <!-- Include TeamWin android_system_update_engine to build a good update_engine_sideload -->
 <!--    <project path="system/update_engine" name="maldini03/android_system_update_engine" remote="github" revision="android-11.0" />-->
+
+<!-- Include external android_hardware_qcom_bootctrl to build a good update_engine_sideload -->
+    <project path="hardware/qcom/bootctrl" name="maldini03/android_hardware_qcom_bootctrl" remote="github" revision="android-11" />
 </manifest>
 
